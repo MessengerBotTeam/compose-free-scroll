@@ -55,7 +55,7 @@ project.afterEvaluate {
     publishing {
         publications {
             gpr(MavenPublication) {
-                groupId = 'com.chihsuanwu.freescroll'
+                groupId = 'org.msgbot'
                 artifactId = 'compose-free-scroll'
                 version = '0.2.3'
                 from components.release
